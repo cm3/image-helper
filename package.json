@@ -1,7 +1,7 @@
 {
   "name": "image-helper",
   "main": "./lib/image-helper",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "When you paste an image to a document (markdown, html or else), this package create a directory named \"assets\", store the image as a png file in it, and insert a relative image path in the document.",
   "keywords": [
     "markdown",
