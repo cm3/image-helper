@@ -1,36 +1,22 @@
-# Markdown Image Helper
+# Image Helper
 
-**Warning: I choose Emacs to write markdown , so this plugin is not maintain anymore**
+Formaly, this was [Markdown Image Helper](https://github.com/bigyuki/markdown-image-helper) inspired by [markdown-assistant](https://github.com/knightli/markdown-assistant)
 
-An Atom plugin for Markdown grammar. Create image file relative to the markdown file and insert a relative url to that file.
-
-Inspired by [markdown-assistant](https://github.com/knightli/markdown-assistant)，instead upload the image, i think just copy to the relative path is better.
+An Atom plugin for pasting image file relative path to documents. Documents can be in markdown, html or else. This package create a directory named `assets`, store the image as a png file in it, and insert a relative image path in the document. The name of directory can be changed in the Atom setting.
 
 ## Usage
+
 1. Take a screenshot or copy any image to the clipboard.
 2. Paste it into Atom markdown editor
 3. See that an directory name "assets" was create, and the directory has a png file, and a url was inserted.
 
 ## Example
+
 * Before
 
-    ![before](https://github.com/bigyuki/markdown-image-helper/raw/master/assets/README-31bb2.png)
+    ![before](https://github.com/cm3/image-helper/raw/master/assets/README-31bb2.png)
 
 * After
 
-    ![after](https://github.com/bigyuki/markdown-image-helper/raw/master/assets/README-d1eba.png)
+    ![after](https://github.com/cm3/image-helper/raw/master/assets/README-d1eba.png)
 
-# Q&A
-- Does this plugin support on Windows system ?
-
-    According to the issue [#2](https://github.com/bigyuki/markdown-image-helper/issues/2), thanks to @[hgaronfolo](https://github.com/hgaronfolo) he said that
-
-        For markdown-image-helper to work, the language needs to be "Git Markdown", so on Windows Atom, I went in to settings, packages and searched for "language-gfm" (core package).
-        This package was disabled by default in Windows Atom, but enabled by default in Linux Atom.
-
-        I enabled "language-gfm", and now I can choose "Github Markdown" in Windows Atom and markdown-image-helper now works! :-)
-
-    so you should enable `language-gfm`, maybe i will work, if not please let me know.
-
-## Other
-If you are using [Hexo](https://github.com/hexojs/hexo) to writer blog or wiki , i think this small plugin [`hexo-generator-assets`](https://github.com/bigyuki/hexo-generator-assets) is helpful with `markdown-image-helper`
