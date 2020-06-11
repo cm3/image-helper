@@ -1,14 +1,13 @@
 # Image Helper
 
-Formaly, this was [Markdown Image Helper](https://github.com/bigyuki/markdown-image-helper) inspired by [markdown-assistant](https://github.com/knightli/markdown-assistant)
+Formarly, this was [Markdown Image Helper](https://github.com/bigyuki/markdown-image-helper) inspired by [markdown-assistant](https://github.com/knightli/markdown-assistant)
 
-An Atom plugin for pasting image file relative path to documents. Documents can be in markdown, html or else. This package create a directory named `assets`, store the image as a png file in it, and insert a relative image path in the document. The name of directory can be changed in the Atom setting.
+This Atom package creates a directory named `assets`, store the image as a png file in it, and insert a relative image path in the document. Documents can be in markdown, HTML or else. The name of the directory can be changed in the Atom setting.
 
 ## Usage
 
 1. Take a screenshot or copy any image to the clipboard.
-2. Paste it into Atom markdown editor
-3. See that an directory name "assets" was create, and the directory has a png file, and a url was inserted.
+2. Paste it into Atom editor
 
 ## Example
 
